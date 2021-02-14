@@ -21,8 +21,11 @@ public class ValidateLanBar {
 		driver.switchTo().frame(mainframe);
 		JavascriptExecutor executor= (JavascriptExecutor)driver;
 		/*WebElement refresh= driver.findElement(By.cssSelector(".p-l-10.p-r-10"));
+		 
 		
 		executor.executeScript("arguments[0].click();", refresh);*/
+		System.out.println("jdjadjka");
+		
         WebElement element = driver.findElement(By.xpath("//button[@id='en']"));
 		/*executor.executeScript("arguments[0].click();", element);*/
 		/*WebElement text=driver.findElement(By.cssSelector("label[class='bot-google-font']"));
